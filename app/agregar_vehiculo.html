@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar Vehiculo</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    
+    <h2 class="text-center mt-3 mb-4">Crear Vehiculo</h2>
+    
+    <div class="mt-2 mb-5 text-center">
+        <a href="./vehiculo.html" class="btn btn-success" role="button" aria-pressed="true">Regresar a gestión vehículo</a>
+    </div>
+
+    <form style="max-width: 750px;" name="formulario_V" class="mx-auto mb-5" id="formulario_vehiculo">
+        <div class="row">
+            <div class="col-6">
+                <label for="placa">Placa</label>
+                <input type="text" name="placa" class="form-control" id="placa" placeholder="XXX000" required>
+              </div>
+              <div class="col-6">
+                  <label for="marca">Marca</label>
+                  <input type="text" name="marca" class="form-control" id="marca" placeholder="Kia" required>
+              </div>
+              <div class="col-6">
+                  <label for="modelo">Modelo</label>
+                  <input type="text" name="modelo" class="form-control" id="modelo" placeholder="Pregio" required>
+              </div>
+              <div class="col-6">
+                  <label for="ano">Año</label>
+                  <input type="text" name="ano" class="form-control" id="ano" placeholder="2022" required>
+              </div>
+              <div class="col-6">
+                  <label for="color">Color</label>
+                  <input type="text" name="color" class="form-control" id="color" placeholder="Blanco" required>
+              </div>
+              <div class="col-6">
+                  <label for="cilindraje">Cilindraje</label>
+                  <input type="text" name="cilindraje" class="form-control" id="cilindraje" placeholder="3000cc" required>
+              </div>
+              <div class="col-6">
+                  <label for="cantPasajeros">Capacidad de Pasajeros</label>
+                  <input type="text" name="cantPasajeros" class="form-control" id="cantPasajeros" placeholder="19" required>
+              </div>
+              <div class="col-6">
+                  <label for="tipoVehiculo">Tipo Vehiculo</label>
+                  <input type="text" name="tipoVehiculo" class="form-control" id="tipoVehiculo" placeholder="Microbus" required>
+              </div>
+        </div>
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary mt-4 mx-auto">Guardar</button>
+        </div>
+    </form>
+
+    <script src="./assets/js/agregar_vehiculo.js"></script>
+       
+</body>
+</html>
+
+<!-- pagina de crear vehiculo -->
